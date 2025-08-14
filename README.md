@@ -1,3 +1,3 @@
-# PY_SQL_Practice
-This project demonstrates how to connect Python to an SQLite database, run SQL queries to summarize sales data, and visualize the results with a simple bar chart using pandas and matplotlib.
-https://github.com/Shohom-13/PY_SQL_Practice/blob/e4be7601df47adffbbf3fa4a16f90c10d112682e/Screenshot%202025-08-14%20112517.png
+This project demonstrates how to connect Python to an SQLite database (sales_data.db), execute SQL queries to calculate total quantity sold and total revenue per product, and visualize the results using a simple bar chart with pandas and matplotlib. The database contains a single sales table with product names, quantities, and prices. The script connects to the database via sqlite3, runs a GROUP BY query to aggregate sales data, prints the summary in the terminal, and saves a revenue-by-product bar chart (sales_chart.png). This project is ideal for beginners to practice integrating SQL with Python for data analysis and visualization.
+
+![image alt](https://github.com/Shohom-13/PY_SQL_Practice/blob/e4be7601df47adffbbf3fa4a16f90c10d112682e/Screenshot%202025-08-14%20112517.png)
